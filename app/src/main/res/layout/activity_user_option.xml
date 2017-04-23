@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+        <ImageButton
+            android:id="@+id/pickerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center"
+            android:background="@null"
+            android:text="Pick Location"
+            android:src="@drawable/location" />
+</LinearLayout>
